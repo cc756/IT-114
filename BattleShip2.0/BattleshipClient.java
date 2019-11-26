@@ -20,12 +20,12 @@ public class BattleshipClient {
 		
 		try {
 			servername=JOptionPane.showInputDialog(null,"Input the name of"
-			+" the server you wish to connect to.\n(ie. PC3873.princeton.edu)",
+			+" the server you wish to connect to.\n(ie. it114.njit.edu)",
 			"Server Name",JOptionPane.PLAIN_MESSAGE);
 			if (servername==null)
 				servername=" ";
 			System.out.println("Server Name: "+servername);
-            bsSocket = new Socket(servername, 4444);
+            bsSocket = new Socket(servername, 3091);
             this.out = new PrintWriter(bsSocket.getOutputStream(), true);
             this.in = new BufferedReader(new InputStreamReader(bsSocket.getInputStream()));
 			//System.out.println("Job");
