@@ -1054,15 +1054,3 @@ public class Battleship extends JFrame
 		}		//System.out.println("okay");		
 	}
 }	
-	
-/*http://java.sun.com/docs/books/tutorial/uiswing/learn/example1.html
-http://java.sun.com/docs/books/tutorial/uiswing/events/actionlistener.html
-http://java.sun.com/j2se/1.4.2/docs/api/javax/swing/JMenuItem.html
-http://java.sun.com/j2se/1.4.2/docs/api/
-http://www.cs.princeton.edu/introcs/home/
-http://java.sun.com/docs/books/tutorial/networking/overview/index.html
-JLabels?
-http://www.hasbro.com/common/instruct/BattleshipAdvancedMission.pdf
-http://java.sun.com/docs/books/tutorial/uiswing/misc/dnd.html
-http://java.sun.com/docs/books/tutorial/essential/threads/lifecycle.html
-synchronization and threads.*/
