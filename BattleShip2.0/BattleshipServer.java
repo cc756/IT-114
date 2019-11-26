@@ -15,11 +15,11 @@ public class BattleshipServer
 		Vector threads=new Vector();		
 	   
 	   	try {
-            serverSocket = new ServerSocket(4444);
+            serverSocket = new ServerSocket(3091);
         } 
 		catch (IOException e) 
 		{
-            System.err.println("Could not listen on port: 4444.");
+            System.err.println("Could not listen on port: 3091.");
             System.exit(1);
         }     
 		while (num!=2)
