@@ -942,8 +942,8 @@ public class Player
 			{
 				JOptionPane.showMessageDialog(null,"You Lost!","Sorry!",
 				JOptionPane.INFORMATION_MESSAGE);
-				if (Battleship.getPlayers(Battleship.getEnemy()).getUser().equals("Dumbass"))
-					JOptionPane.showMessageDialog(null,"Dumbass!","Sorry!",
+				if (Battleship.getPlayers(Battleship.getEnemy()).getUser().equals("Stupid"))
+					JOptionPane.showMessageDialog(null,"Stupid!","Sorry!",
 					JOptionPane.INFORMATION_MESSAGE);
 				for (i=0;i<10;i++)
 				{
